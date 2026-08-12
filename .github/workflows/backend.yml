@@ -136,7 +136,7 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ec2-user
           key: ${{ secrets.EC2_KEY }}
-          script: sleep 15
+          script: sleep 45
 
       - name: Verify Application
         uses: appleboy/ssh-action@v1.1.0
